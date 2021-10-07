@@ -1,0 +1,133 @@
+{
+	"id": "0671056d-b4bb-70ba-31e1-5cf562e1384f",
+	"name": "Security",
+	"description": "",
+	"order": [
+		"6f7ec381-3815-09b5-32b3-6deab948f462",
+		"d50b429f-3283-e68c-97ac-39c2c846dd82",
+		"8b1dbd12-fe6f-bb52-7583-f0a7787810ad",
+		"f170f2b0-a829-0873-3c34-ee0a59ea7910"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1633567138125,
+	"owner": "17642498",
+	"public": false,
+	"requests": [
+		{
+			"id": "6f7ec381-3815-09b5-32b3-6deab948f462",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/usuarios/cadastrar",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0671056d-b4bb-70ba-31e1-5cf562e1384f",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/usuarios/cadastrar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1633567142632,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\n\"nome\":\"Beatriz Rodrigues\",\n\"usuario\": \"Beatriz\", \n\"senha\": \"generation123\"\n}"
+		},
+		{
+			"id": "8b1dbd12-fe6f-bb52-7583-f0a7787810ad",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/usuarios/logar",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0671056d-b4bb-70ba-31e1-5cf562e1384f",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/usuarios/logar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1633567176144,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"usuario\": \"Beatriz\", \n\t\"senha\": \"generation123\"\n}"
+		},
+		{
+			"id": "d50b429f-3283-e68c-97ac-39c2c846dd82",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/postagens",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "0671056d-b4bb-70ba-31e1-5cf562e1384f",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/postagens",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1633567166714,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f170f2b0-a829-0873-3c34-ee0a59ea7910",
+			"headers": "Authorization: Basic QmVhdHJpejpnZW5lcmF0aW9uMTIz\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic QmVhdHJpejpnZW5lcmF0aW9uMTIz",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/postagens",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "0671056d-b4bb-70ba-31e1-5cf562e1384f",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/postagens",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1633567182799,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
