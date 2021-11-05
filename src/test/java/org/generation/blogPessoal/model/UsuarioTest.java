@@ -28,8 +28,7 @@ import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 		@BeforeEach
 		public void start() {
 			
-		usuario = new Usuario(0L, "João da Silva",
-		"joao@email.com.br", "13465278");
+		usuario = new Usuario();
 		}
 		@Test
 		@DisplayName("✔ Valida Atributos Não Nulos")

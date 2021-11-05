@@ -38,8 +38,7 @@ public class UsuarioControllerTest {
 
 	@BeforeAll
 	public void start(){
-	usuarioAdmin = new Usuario(0L, "Administrador",
-	"admin@email.com.br", "admin123");
+	usuarioAdmin = new Usuario();
 	if(!usuarioRepository.findByUsuario(usuarioAdmin.getUsuario()).isPresent());
 	}
 
